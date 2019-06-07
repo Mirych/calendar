@@ -1,0 +1,43 @@
+body {
+	background-color: #FAFAFA;
+}
+
+#calendar {
+	padding-top: 100px;
+}
+
+#calendar table {
+	margin: auto;
+	width: 400px;
+	height: 300px;
+	font-size: 18px;
+	text-align: center;
+	min-height: 193px;
+	background-color: white;
+	border-collapse: collapse;
+
+}
+
+tr:first-child{
+	font-size: 14px;
+	background-color: #eeecee;
+	height: 47px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#headline {
+	font-weight: bold;
+	display: inline-block;
+	height: 40px;
+}
+
+#today {
+	text-align: center;
+}
